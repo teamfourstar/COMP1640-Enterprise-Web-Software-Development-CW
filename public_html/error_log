@@ -1,0 +1,1239 @@
+[12-Mar-2020 13:27:15 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 13:27:15 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 13:27:50 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[12-Mar-2020 13:31:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4573
+[12-Mar-2020 13:36:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 13:36:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 13:36:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[12-Mar-2020 13:40:58 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 13:40:58 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 13:41:29 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 13:41:29 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 13:41:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 13:44:35 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:44:35 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:44:35 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:44:44 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:44:44 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:44:44 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[12-Mar-2020 13:45:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 13:45:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2258
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1850): Database->getFieldSQL('SELECT Admin FR...', 'Admin', Array)
+#1 /home3/jsmarchant97/enterprisecw/nav_bar.php(28): Database->isAdmin('Mr Bump')
+#2 /home3/jsmarchant97/enterprisecw/view_ideas.php(116): include('/home3/jsmarcha...')
+#3 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2258
+[12-Mar-2020 13:46:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 14:47:12 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[12-Mar-2020 14:49:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 14:49:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 14:49:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[12-Mar-2020 15:19:49 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 15:19:49 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 15:31:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 15:31:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[12-Mar-2020 15:32:14 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[12-Mar-2020 19:54:49 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 19:54:49 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[12-Mar-2020 20:00:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 20:00:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[12-Mar-2020 20:00:40 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[12-Mar-2020 20:00:40 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[12-Mar-2020 20:27:52 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[12-Mar-2020 20:27:52 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[12-Mar-2020 20:36:38 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:36:38 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:36:39 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:36:39 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:37:01 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:37:01 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:37:05 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:37:05 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:37:06 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:37:06 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:39:22 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:39:22 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:39:30 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:39:30 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/admin_panel.php on line 122
+[12-Mar-2020 20:40:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[12-Mar-2020 20:40:59 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:40:59 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:41:09 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:41:09 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:42:18 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:42:18 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:42:25 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:42:25 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:42:35 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 85
+[12-Mar-2020 20:42:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[12-Mar-2020 20:43:14 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[12-Mar-2020 20:43:14 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:23:15 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:23:15 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:23:16 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:23:16 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:28:11 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:28:11 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 07:28:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 07:28:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[13-Mar-2020 07:28:32 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:28:32 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:28:35 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:28:35 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:36:55 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:36:55 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:59:48 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 07:59:48 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 08:09:09 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 08:09:09 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 130
+[13-Mar-2020 08:09:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:16) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 08:38:26 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 08:38:26 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 08:48:52 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 08:48:52 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 09:01:43 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 09:01:43 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 09:01:50 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 09:01:50 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_idea.php on line 125
+[13-Mar-2020 09:01:55 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 09:01:55 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 09:08:15 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 09:08:15 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/index.php on line 19
+[13-Mar-2020 09:08:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[13-Mar-2020 09:08:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[13-Mar-2020 09:08:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 20
+[13-Mar-2020 09:09:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[13-Mar-2020 09:09:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 20
+[13-Mar-2020 09:10:22 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:10:27 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:10:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:10:42 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 85
+[13-Mar-2020 09:11:12 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 85
+[13-Mar-2020 09:11:23 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:11:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:11:53 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home3/jsmarchant97/enterprisecw/server.php:5
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/loginreg.php(2): include()
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/server.php on line 5
+[13-Mar-2020 09:12:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:12:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:12:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:12:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4575
+[13-Mar-2020 09:13:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:14:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/database.php:1) in /home3/jsmarchant97/enterprisecw/server.php on line 3
+[13-Mar-2020 09:14:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home3/jsmarchant97/enterprisecw/server.php:5
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/loginreg.php(2): include()
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/server.php on line 5
+[13-Mar-2020 09:14:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/database.php:1) in /home3/jsmarchant97/enterprisecw/server.php on line 3
+[13-Mar-2020 09:14:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home3/jsmarchant97/enterprisecw/server.php:5
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/loginreg.php(2): include()
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/server.php on line 5
+[13-Mar-2020 09:14:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:18:00 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4577
+[13-Mar-2020 09:18:54 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:19:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:19:26 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:19:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:20:17 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/jsmarchant97/enterprisecw/database.php on line 2161
+[13-Mar-2020 09:20:49 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:27:12 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:29:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:29:48 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:32:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:37:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:37:23 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:37:46 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 09:39:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 10:15:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 10:23:20 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 10:24:40 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 10:24:52 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:24:52 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:24:52 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:25:52 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:25:52 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:25:52 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:26:37 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:26:37 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:26:37 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:35:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/database.php on line 4576
+[13-Mar-2020 10:45:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:45:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:49:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:49:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:53:02 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:53:02 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:53:02 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:53:14 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[13-Mar-2020 10:53:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:53:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:55:53 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:55:53 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:55:53 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:56:31 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:56:31 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:56:31 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:57:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:57:40 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:40 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:40 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:44 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:44 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:44 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:57:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:57:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 10:58:25 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:58:25 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 10:58:25 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[13-Mar-2020 11:00:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/jsmarchant97/enterprisecw/database.php:2220
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(266): Database->getArrayObjectsSQL('SELECT Name, Ty...')
+#1 /home3/jsmarchant97/enterprisecw/loginreg.php(98): Database->getAllRoles()
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2220
+[13-Mar-2020 11:03:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:03:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:09:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:09:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:09:59 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:09:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:09:59 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:09:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:10:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:10:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:10:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:10:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:14:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[13-Mar-2020 11:14:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[13-Mar-2020 11:14:55 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[13-Mar-2020 11:29:44 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[13-Mar-2020 12:20:48 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[14-Mar-2020 08:35:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[14-Mar-2020 08:35:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[14-Mar-2020 08:35:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[14-Mar-2020 08:35:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[14-Mar-2020 08:40:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[14-Mar-2020 08:40:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[14-Mar-2020 08:40:55 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:180
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 180
+[15-Mar-2020 13:27:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[15-Mar-2020 13:27:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[15-Mar-2020 13:27:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[16-Mar-2020 12:54:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:17) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[16-Mar-2020 12:54:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 133
+[22-Mar-2020 14:03:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:04:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:06:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:06:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:06:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:06:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:07:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:07:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:07:47 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[22-Mar-2020 14:11:02 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[22-Mar-2020 14:11:32 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[22-Mar-2020 14:11:52 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[22-Mar-2020 14:12:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:12:49 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:12:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:12:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:14:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:14:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:15:49 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:17:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:18:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:19:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:19:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:20:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:20:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:20:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:20:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:20:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:21:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:21:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:21:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:22:05 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:22:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:22:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:22:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:22:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:23:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:24:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:24:05 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:24:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:24:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:24:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:29:23 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[22-Mar-2020 14:29:23 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[22-Mar-2020 14:29:50 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[22-Mar-2020 14:29:50 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/analytics.php on line 223
+[22-Mar-2020 14:29:54 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/analytics.php on line 221
+[22-Mar-2020 14:29:54 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/analytics.php on line 221
+[22-Mar-2020 14:30:51 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:30:51 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:35:32 America/Chicago] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home3/jsmarchant97/enterprisecw/database.php on line 7
+[22-Mar-2020 14:36:46 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:36:46 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:37:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:37:25 America/Chicago] PHP Notice:  Undefined index: pagination_step_from in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:37:25 America/Chicago] PHP Notice:  Undefined index: pagination_step_to in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:37:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:11) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:37:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/jsmarchant97/enterprisecw/database.php on line 2405
+[22-Mar-2020 14:39:58 America/Chicago] PHP Fatal error:  Cannot use try without catch or finally in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:40:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 14
+[22-Mar-2020 14:41:24 America/Chicago] PHP Notice:  Undefined index: pagination_step_from in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[22-Mar-2020 14:41:24 America/Chicago] PHP Notice:  Undefined index: pagination_step_to in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 13
+[22-Mar-2020 14:41:24 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::getIdeasWithPagination() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 54 and defined in /home3/jsmarchant97/enterprisecw/database.php:734
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/view_ideas.php(54): Database->getIdeasWithPagination(NULL, NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 734
+[22-Mar-2020 14:41:45 America/Chicago] PHP Notice:  Undefined variable: sess_pagination_step_from in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:41:45 America/Chicago] PHP Notice:  Undefined variable: sess_pagination_step_to in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:41:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:11) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:41:45 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/jsmarchant97/enterprisecw/database.php on line 2405
+[22-Mar-2020 14:42:12 America/Chicago] PHP Notice:  Undefined index: pagination_step_from in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:42:12 America/Chicago] PHP Notice:  Undefined index: pagination_step_to in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 11
+[22-Mar-2020 14:42:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:11) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:42:12 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/jsmarchant97/enterprisecw/database.php on line 2405
+[22-Mar-2020 14:43:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 4
+[22-Mar-2020 14:46:37 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:46:37 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:49:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 8
+[22-Mar-2020 14:49:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:50:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:50:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:50:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:51:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:51:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:52:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 9
+[22-Mar-2020 14:54:39 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:54:39 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:54:48 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:54:48 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:54:49 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 14:54:49 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 123
+[22-Mar-2020 15:15:31 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:15:31 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:15:58 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:15:58 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:18:45 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:18:45 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:20:46 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:20:46 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:20:59 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:20:59 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:40 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:40 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:44 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:44 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:51 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:21:51 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:22:46 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:22:46 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:22:51 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:22:51 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:23:33 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:23:33 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[22-Mar-2020 15:35:15 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 85
+[22-Mar-2020 15:37:22 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 85
+[22-Mar-2020 16:57:55 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 85
+[22-Mar-2020 17:01:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 89
+[22-Mar-2020 17:01:52 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 114
+[22-Mar-2020 17:03:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 89
+[22-Mar-2020 17:03:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 114
+[22-Mar-2020 17:03:41 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 90
+[22-Mar-2020 17:03:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 115
+[22-Mar-2020 17:03:54 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 88
+[22-Mar-2020 17:03:54 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 113
+[22-Mar-2020 17:09:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getArrayObjectsSQL() in /home3/jsmarchant97/enterprisecw/qa_management.php:87
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:10:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to private method Database::getArrayObjectsSQL() from context '' in /home3/jsmarchant97/enterprisecw/qa_management.php:87
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:12:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to private method Database::getArrayObjectsSQL() from context '' in /home3/jsmarchant97/enterprisecw/qa_management.php:87
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:16:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'getArrayObjectsSQLMakePublickH' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home3/jsmarchant97/enterprisecw/database.php on line 96
+[22-Mar-2020 17:16:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home3/jsmarchant97/enterprisecw/qa_management.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 5
+[22-Mar-2020 17:17:38 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 111
+[22-Mar-2020 17:19:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:25:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:25:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:25:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:25:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:25:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:26:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 162
+[22-Mar-2020 17:33:17 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home3/jsmarchant97/enterprisecw/qa_management.php:116
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 116
+[22-Mar-2020 17:40:44 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:40:44 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:41:16 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:41:16 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:41:36 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:41:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:43:08 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:43:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:43:38 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:43:38 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 112
+[22-Mar-2020 17:43:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 88
+[22-Mar-2020 17:43:52 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 113
+[22-Mar-2020 17:44:58 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 84
+[22-Mar-2020 17:44:58 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 109
+[22-Mar-2020 17:45:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 84
+[22-Mar-2020 17:45:09 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 109
+[22-Mar-2020 17:45:11 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 84
+[22-Mar-2020 17:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 109
+[22-Mar-2020 17:45:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home3/jsmarchant97/enterprisecw/qa_management.php:81
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 81
+[22-Mar-2020 17:47:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 83
+[22-Mar-2020 17:47:57 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 108
+[22-Mar-2020 17:48:47 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 83
+[22-Mar-2020 17:48:47 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 108
+[22-Mar-2020 17:50:32 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:50:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$e' (T_VARIABLE), expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 87
+[22-Mar-2020 17:53:06 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 86
+[22-Mar-2020 18:00:15 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:00:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 20
+[22-Mar-2020 18:02:22 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 85
+[22-Mar-2020 18:03:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:03:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 20
+[22-Mar-2020 18:07:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:07:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 2
+[22-Mar-2020 18:07:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 2
+[22-Mar-2020 18:07:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 17
+[22-Mar-2020 18:08:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:08:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[22-Mar-2020 18:08:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[22-Mar-2020 18:10:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:10:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[22-Mar-2020 18:16:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[22-Mar-2020 18:16:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[23-Mar-2020 11:39:18 America/Chicago] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home3/jsmarchant97/enterprisecw/database.php on line 7
+[23-Mar-2020 11:44:30 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(97): Database->getDepartmentIdeas('Computing')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 11:44:32 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(97): Database->getDepartmentIdeas('Science')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 11:45:59 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(97): Database->getDepartmentIdeas('Computing')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 11:46:02 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(97): Database->getDepartmentIdeas('Science')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 11:46:04 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(97): Database->getDepartmentIdeas('Sports')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 12:00:11 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 30
+[23-Mar-2020 12:00:11 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:00:11 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:00:11 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:06 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 30
+[23-Mar-2020 12:01:06 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:06 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:06 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:08 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 30
+[23-Mar-2020 12:01:08 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:08 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:08 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:15 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 30
+[23-Mar-2020 12:01:15 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:15 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:15 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:28 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 30
+[23-Mar-2020 12:01:28 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:28 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 12:01:28 America/Chicago] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home3/jsmarchant97/enterprisecw/reports.php on line 34
+[23-Mar-2020 14:42:17 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 14:42:17 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 14:42:30 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(115): Database->getDepartmentIdeas('Computing')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 14:42:32 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(115): Database->getDepartmentIdeas('Science')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 14:42:34 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::strValidation() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 1722 and defined in /home3/jsmarchant97/enterprisecw/database.php:2453
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(1722): Database->strValidation(NULL, 'category', 'letters', 'getDepartmentId...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(115): Database->getDepartmentIdeas('Sports')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2453
+[23-Mar-2020 14:42:57 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 14:42:57 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 14:44:55 America/Chicago] PHP Warning:  include_once(./footer.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 14:44:55 America/Chicago] PHP Warning:  include_once(): Failed opening './footer.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/forum.php on line 120
+[23-Mar-2020 17:29:31 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[23-Mar-2020 18:19:37 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[23-Mar-2020 20:57:03 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[23-Mar-2020 20:57:26 America/Chicago] PHP Warning:  ZipArchive::open(): Empty string as source in /home3/jsmarchant97/enterprisecw/csv.php on line 34
+[23-Mar-2020 20:58:56 America/Chicago] PHP Warning:  ZipArchive::open(): Empty string as source in /home3/jsmarchant97/enterprisecw/csv.php on line 35
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFile(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 56
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 65
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 66
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 67
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  readfile(archiver.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 68
+[23-Mar-2020 21:07:47 America/Chicago] PHP Warning:  unlink(archiver.zip): No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 69
+[23-Mar-2020 21:10:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 21:10:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 88
+[23-Mar-2020 21:10:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 89
+[23-Mar-2020 21:10:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:21) in /home3/jsmarchant97/enterprisecw/csv.php on line 90
+[23-Mar-2020 21:10:40 America/Chicago] PHP Warning:  readfile(document.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 91
+[23-Mar-2020 21:12:11 America/Chicago] PHP Warning:  readfile(document.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 91
+[23-Mar-2020 21:13:38 America/Chicago] PHP Warning:  readfile(document.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 91
+[23-Mar-2020 21:13:54 America/Chicago] PHP Warning:  readfile(document.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 91
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFile(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 56
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 61
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:56) in /home3/jsmarchant97/enterprisecw/csv.php on line 65
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:56) in /home3/jsmarchant97/enterprisecw/csv.php on line 66
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:56) in /home3/jsmarchant97/enterprisecw/csv.php on line 67
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  readfile(archiver.zip): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 68
+[23-Mar-2020 21:14:40 America/Chicago] PHP Warning:  unlink(archiver.zip): No such file or directory in /home3/jsmarchant97/enterprisecw/csv.php on line 69
+[23-Mar-2020 21:28:59 America/Chicago] PHP Warning:  ZipArchive::addFromString(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 86
+[23-Mar-2020 21:28:59 America/Chicago] PHP Warning:  ZipArchive::close(): Invalid or uninitialized Zip object in /home3/jsmarchant97/enterprisecw/csv.php on line 95
+[23-Mar-2020 21:28:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:86) in /home3/jsmarchant97/enterprisecw/csv.php on line 98
+[23-Mar-2020 21:28:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:86) in /home3/jsmarchant97/enterprisecw/csv.php on line 99
+[23-Mar-2020 21:28:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:86) in /home3/jsmarchant97/enterprisecw/csv.php on line 100
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:87) in /home3/jsmarchant97/enterprisecw/csv.php on line 123
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:87) in /home3/jsmarchant97/enterprisecw/csv.php on line 124
+[23-Mar-2020 22:17:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:87) in /home3/jsmarchant97/enterprisecw/csv.php on line 125
+[23-Mar-2020 22:18:39 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT i.* FROM Forum f 
+    INNER JOIN Idea i ON f.ForumID = i.ForumID 
+       ' at line 1 in /home3/jsmarchant97/enterprisecw/csv.php:87
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(87): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(29): AddFile(Object(ZipArchive), 'Idea', 'SELECT i.* SELE...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:20:56 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:86
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(86): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(69): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 86
+[23-Mar-2020 22:23:32 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:87
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(87): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(70): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:24:36 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:87
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(87): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(70): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:24:51 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:87
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(87): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(70): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:24:51 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:87
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(87): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(70): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 87
+[23-Mar-2020 22:29:24 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:88
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(88): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(71): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 88
+[23-Mar-2020 22:29:27 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:88
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(88): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(71): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 88
+[23-Mar-2020 22:30:17 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.IdeaID' in 'on clause' in /home3/jsmarchant97/enterprisecw/csv.php:88
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(88): PDOStatement->execute(Array)
+#1 /home3/jsmarchant97/enterprisecw/csv.php(71): AddFile(Object(ZipArchive), 'User', 'SELECT u.* FROM...', Array)
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 88
+[23-Mar-2020 23:09:35 America/Chicago] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 169
+[23-Mar-2020 23:09:35 America/Chicago] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 169
+[23-Mar-2020 23:09:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 182
+[23-Mar-2020 23:09:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 183
+[23-Mar-2020 23:09:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 184
+[23-Mar-2020 23:09:36 America/Chicago] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 169
+[23-Mar-2020 23:09:36 America/Chicago] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 169
+[23-Mar-2020 23:09:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 182
+[23-Mar-2020 23:09:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 183
+[23-Mar-2020 23:09:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:169) in /home3/jsmarchant97/enterprisecw/csv.php on line 184
+[23-Mar-2020 23:29:38 America/Chicago] PHP Warning:  A non-numeric value encountered in /home3/jsmarchant97/enterprisecw/csv.php on line 156
+[23-Mar-2020 23:29:38 America/Chicago] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home3/jsmarchant97/enterprisecw/csv.php:156
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/csv.php(124): AddDocument(Object(ZipArchive), 'Document', 'SELECT d.* FROM...', Array)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/csv.php on line 156
+[23-Mar-2020 23:30:12 America/Chicago] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 160
+[23-Mar-2020 23:30:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:160) in /home3/jsmarchant97/enterprisecw/csv.php on line 192
+[23-Mar-2020 23:30:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:160) in /home3/jsmarchant97/enterprisecw/csv.php on line 193
+[23-Mar-2020 23:30:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:160) in /home3/jsmarchant97/enterprisecw/csv.php on line 194
+[23-Mar-2020 23:31:30 America/Chicago] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 160
+[23-Mar-2020 23:31:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:151) in /home3/jsmarchant97/enterprisecw/csv.php on line 192
+[23-Mar-2020 23:31:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:151) in /home3/jsmarchant97/enterprisecw/csv.php on line 193
+[23-Mar-2020 23:31:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:151) in /home3/jsmarchant97/enterprisecw/csv.php on line 194
+[23-Mar-2020 23:32:55 America/Chicago] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 164
+[23-Mar-2020 23:32:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 199
+[23-Mar-2020 23:32:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 200
+[23-Mar-2020 23:32:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 201
+[23-Mar-2020 23:34:26 America/Chicago] PHP Warning:  fputcsv() expects parameter 2 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 165
+[23-Mar-2020 23:34:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 200
+[23-Mar-2020 23:34:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 201
+[23-Mar-2020 23:34:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 202
+[23-Mar-2020 23:36:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 201
+[23-Mar-2020 23:36:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 202
+[23-Mar-2020 23:36:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:39:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:39:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:39:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[23-Mar-2020 23:39:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:39:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:39:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[23-Mar-2020 23:39:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:39:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:39:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[23-Mar-2020 23:39:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:39:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:39:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:159) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:38 America/Chicago] PHP Warning:  key() expects parameter 1 to be array, string given in /home3/jsmarchant97/enterprisecw/csv.php on line 170
+[23-Mar-2020 23:42:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 202
+[23-Mar-2020 23:42:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:42:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:45:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:45:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:45:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[23-Mar-2020 23:49:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 203
+[23-Mar-2020 23:49:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 204
+[23-Mar-2020 23:49:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/csv.php:170) in /home3/jsmarchant97/enterprisecw/csv.php on line 205
+[24-Mar-2020 07:25:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 106
+[24-Mar-2020 07:28:36 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 08:38:38 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 10:29:50 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 110 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('adbad', 'asdf', NULL, 'Test', true, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[24-Mar-2020 10:34:28 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 110 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('agsdgasdf', 'asdfasdf', NULL, 'Test', false, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[24-Mar-2020 10:39:05 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/jsmarchant97/enterprisecw/database.php on line 998
+[24-Mar-2020 10:39:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 110 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('asdgasd', 'sdfa', NULL, 'Test', false, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[24-Mar-2020 10:42:32 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/jsmarchant97/enterprisecw/database.php on line 998
+[24-Mar-2020 11:48:37 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 11:50:38 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 13:10:06 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'mysql.cms.gre.ac.uk' (110) in /home3/jsmarchant97/enterprisecw/qam.php on line 182
+[24-Mar-2020 13:12:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[24-Mar-2020 13:12:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[24-Mar-2020 13:13:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[24-Mar-2020 13:13:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 16
+[24-Mar-2020 13:16:34 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 14:22:05 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 14:37:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:37:42 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:37:44 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:37:51 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:37:53 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:38:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 14:40:54 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jsmarchant97/enterprisecw/qa_management.php on line 149
+[24-Mar-2020 15:38:48 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[24-Mar-2020 15:47:08 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 421
+[24-Mar-2020 15:55:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 419
+[24-Mar-2020 15:57:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 419
+[24-Mar-2020 16:02:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:05:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:05:58 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:06:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 419
+[24-Mar-2020 16:06:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home3/jsmarchant97/enterprisecw/qa_management.php:178
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:06:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home3/jsmarchant97/enterprisecw/qa_management.php:178
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:06:28 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:06:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home3/jsmarchant97/enterprisecw/qa_management.php:178
+Stack trace:
+#0 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:26 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:50 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:51 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:53 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:56 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:21:58 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 16:27:48 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:27:50 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:28:12 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:29:01 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:29:22 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:30:06 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:30:07 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:31:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:32:36 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:33:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/jsmarchant97/enterprisecw/qa_management.php(187) : eval()'d code on line 2
+[24-Mar-2020 16:36:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 426
+[24-Mar-2020 16:36:28 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:36:31 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:36:33 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:36:50 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:36:59 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:37:01 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(183) : eval()'d code on line 1
+[24-Mar-2020 16:37:47 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/jsmarchant97/enterprisecw/qa_management.php(188) : eval()'d code on line 1
+[24-Mar-2020 16:38:08 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 428
+[24-Mar-2020 16:39:39 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 187
+[24-Mar-2020 16:39:53 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 187
+[24-Mar-2020 16:39:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 187
+[24-Mar-2020 16:39:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 187
+[24-Mar-2020 16:43:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:43:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:43:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:43:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 180
+[24-Mar-2020 16:47:56 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 426
+[24-Mar-2020 16:53:02 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:53:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php(181) : eval()'d code on line 1
+[24-Mar-2020 16:54:41 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:54:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'closureDate' (T_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:54:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'closureDate' (T_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 16:55:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'finalClosureDate' (T_STRING) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 181
+[24-Mar-2020 17:00:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 17:00:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 17:00:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 17:01:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 17:01:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 18:30:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 288
+[24-Mar-2020 18:31:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 288
+[24-Mar-2020 18:34:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 289
+[24-Mar-2020 18:36:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 289
+[24-Mar-2020 18:37:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 289
+[24-Mar-2020 18:37:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:37:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:37:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:37:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:38:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:38:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 289
+[24-Mar-2020 18:38:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 2
+[24-Mar-2020 18:39:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 10
+[24-Mar-2020 18:39:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/tst.php on line 10
+[24-Mar-2020 18:51:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 423
+[24-Mar-2020 19:30:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:32:19 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:32:20 America/Chicago] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:32:33 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:32:34 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:33:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:33:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[24-Mar-2020 19:33:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/jsmarchant97/enterprisecw/qa_management.php on line 178
+[25-Mar-2020 07:06:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/view_ideas.php:20) in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 2
+[25-Mar-2020 07:10:40 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[25-Mar-2020 07:10:40 America/Chicago] PHP Warning:  include(error.html.php): failed to open stream: No such file or directory in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[25-Mar-2020 07:10:40 America/Chicago] PHP Warning:  include(): Failed opening 'error.html.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 12
+[25-Mar-2020 07:44:46 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Database::setThumbsUpDownForJake() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 106 and defined in /home3/jsmarchant97/enterprisecw/database.php:665
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/view_ideas.php(106): Database->setThumbsUpDownForJake('23', NULL, 1)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 665
+[25-Mar-2020 08:05:12 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 08:57:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 107
+[25-Mar-2020 08:59:13 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:12:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 112
+[25-Mar-2020 11:12:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 112
+[25-Mar-2020 11:28:02 America/Chicago] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/jsmarchant97/enterprisecw/database.php on line 999
+[25-Mar-2020 11:35:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 115
+[25-Mar-2020 11:39:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/server.php:226) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 8
+[25-Mar-2020 11:40:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 119
+[25-Mar-2020 11:41:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/server.php:226) in /home3/jsmarchant97/enterprisecw/loginreg.php on line 8
+[25-Mar-2020 11:41:14 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 219 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(219): Database->createIdea('', '', NULL, 'abc', false, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[25-Mar-2020 11:42:17 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 219 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(219): Database->createIdea('aa', 'a', NULL, 'abc', false, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[25-Mar-2020 11:42:53 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:43:02 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:44:46 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:44:49 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:44:51 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 64 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(64): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 11:45:02 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 110 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('Idea with no up...', 'Test', NULL, 'abc', true, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[25-Mar-2020 11:46:10 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Database::createIdea() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/server.php on line 110 and defined in /home3/jsmarchant97/enterprisecw/database.php:495
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('Idea with no do...', 'Test', NULL, 'NumberOne', false, Array, Array)
+#1 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 495
+[25-Mar-2020 12:04:13 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home3/jsmarchant97/enterprisecw/qa_management.php on line 7
+[25-Mar-2020 12:04:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/jsmarchant97/enterprisecw/qa_management.php on line 417
+[25-Mar-2020 12:44:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 138
+[25-Mar-2020 12:44:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 342
+[25-Mar-2020 12:48:57 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setLastLogin() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/forum.php on line 127 and defined in /home3/jsmarchant97/enterprisecw/database.php:190
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/forum.php(127): Database->setLastLogin(NULL)
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 190
+[25-Mar-2020 12:53:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 12:54:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 12:54:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 12:55:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 12:59:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 13:04:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 13:10:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 13:11:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 337
+[25-Mar-2020 15:25:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[25-Mar-2020 15:26:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[25-Mar-2020 15:27:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[25-Mar-2020 15:59:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[25-Mar-2020 17:23:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[25-Mar-2020 17:26:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[26-Mar-2020 08:09:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 129
+[26-Mar-2020 09:06:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
+[26-Mar-2020 09:06:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 115
+[26-Mar-2020 09:06:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
+[26-Mar-2020 09:06:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
+[26-Mar-2020 09:24:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 09:53:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 10:24:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/top_ideas.php on line 9
+[26-Mar-2020 10:26:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/top_ideas.php on line 9
+[26-Mar-2020 10:39:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/reports.php on line 6
+[26-Mar-2020 11:34:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 11:34:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 11:35:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 12:18:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[26-Mar-2020 12:18:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[26-Mar-2020 12:18:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[26-Mar-2020 12:18:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/jsmarchant97/enterprisecw/manageuser.php:1) in /home3/jsmarchant97/enterprisecw/manageuser.php on line 3
+[26-Mar-2020 12:37:49 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::setIdeaCategory() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/database.php on line 526 and defined in /home3/jsmarchant97/enterprisecw/database.php:1522
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(526): Database->setIdeaCategory(NULL, '', '2020-03-26 12:3...')
+#1 /home3/jsmarchant97/enterprisecw/server.php(110): Database->createIdea('', '', 'Computing', 'Support', 0, Array, Array)
+#2 /home3/jsmarchant97/enterprisecw/submit_idea.php(6): include_once('/home3/jsmarcha...')
+#3 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 1522
+[26-Mar-2020 12:44:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/database.php:1058) in /home3/jsmarchant97/enterprisecw/server.php on line 112
+[26-Mar-2020 12:45:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/database.php:1058) in /home3/jsmarchant97/enterprisecw/server.php on line 112
+[26-Mar-2020 13:04:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 13:04:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 13:04:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:8) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 120
+[26-Mar-2020 13:19:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 131
+[26-Mar-2020 13:20:28 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('ak7993g')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:21:25 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('ak7993g')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:21:27 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('ak7993g')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:23:55 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:23:56 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:27:19 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND u.Banned = '0' AND u.Removed = '0' AND  (d.Removed = 0 OR d.Removed IS NUL' at line 4 in /home3/jsmarchant97/enterprisecw/database.php:275
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(275): PDO->query('SELECT IF (r.No...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 275
+[26-Mar-2020 13:27:22 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND u.Banned = '0' AND u.Removed = '0' AND  (d.Removed = 0 OR d.Removed IS NUL' at line 4 in /home3/jsmarchant97/enterprisecw/database.php:275
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(275): PDO->query('SELECT IF (r.No...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 275
+[26-Mar-2020 13:28:44 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Jesus' in 'where clause' in /home3/jsmarchant97/enterprisecw/database.php:275
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(275): PDO->query('SELECT IF (r.No...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 275
+[26-Mar-2020 13:28:45 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Jesus' in 'where clause' in /home3/jsmarchant97/enterprisecw/database.php:275
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(275): PDO->query('SELECT IF (r.No...')
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 275
+[26-Mar-2020 13:29:08 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getDepartment() must be an instance of object or null, instance of PDOStatement returned in /home3/jsmarchant97/enterprisecw/database.php:275
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 275
+[26-Mar-2020 13:29:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home3/jsmarchant97/enterprisecw/database.php on line 1209
+[26-Mar-2020 13:30:28 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home3/jsmarchant97/enterprisecw/database.php:276
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 276
+[26-Mar-2020 13:30:31 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home3/jsmarchant97/enterprisecw/database.php:276
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 276
+[26-Mar-2020 13:31:20 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:31:46 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2396
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(258): Database->getObjectSQL('SELECT IF (r.No...', Array)
+#1 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2396
+[26-Mar-2020 13:33:06 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getDepartment() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:276
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 276
+[26-Mar-2020 13:34:57 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home3/jsmarchant97/enterprisecw/database.php:276
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 276
+[26-Mar-2020 13:36:53 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getDepartment() must be an instance of object or null, string returned in /home3/jsmarchant97/enterprisecw/database.php:276
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/reports.php(31): Database->getDepartment('Jesus')
+#1 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 276
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 129
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 154
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 178
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 129
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 154
+[26-Mar-2020 13:43:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 178
+[26-Mar-2020 13:44:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 129
+[26-Mar-2020 13:44:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 154
+[26-Mar-2020 13:44:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/reports.php on line 178
+[26-Mar-2020 15:00:35 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::getRole() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 7 and defined in /home3/jsmarchant97/enterprisecw/database.php:290
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/nav_bar.php(7): Database->getRole(NULL)
+#1 /home3/jsmarchant97/enterprisecw/top_ideas.php(9): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 290
+[26-Mar-2020 15:00:49 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::getRole() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 7 and defined in /home3/jsmarchant97/enterprisecw/database.php:290
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/nav_bar.php(7): Database->getRole(NULL)
+#1 /home3/jsmarchant97/enterprisecw/top_ideas.php(9): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 290
+[26-Mar-2020 15:01:12 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Database::getRole() must be of the type string, null given, called in /home3/jsmarchant97/enterprisecw/nav_bar.php on line 8 and defined in /home3/jsmarchant97/enterprisecw/database.php:290
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/nav_bar.php(8): Database->getRole(NULL)
+#1 /home3/jsmarchant97/enterprisecw/top_ideas.php(9): include_once('/home3/jsmarcha...')
+#2 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 290
+[26-Mar-2020 15:02:20 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2397
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(306): Database->getObjectSQL('SELECT r.Name, ...', Array)
+#1 /home3/jsmarchant97/enterprisecw/nav_bar.php(8): Database->getRole('NumberOne')
+#2 /home3/jsmarchant97/enterprisecw/loginreg.php(11): include_once('/home3/jsmarcha...')
+#3 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2397
+[26-Mar-2020 15:02:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: Return value of Database::getObjectSQL() must be an instance of object or null, instance of stdClass returned in /home3/jsmarchant97/enterprisecw/database.php:2397
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(306): Database->getObjectSQL('SELECT r.Name, ...', Array)
+#1 /home3/jsmarchant97/enterprisecw/nav_bar.php(8): Database->getRole('NumberOne')
+#2 /home3/jsmarchant97/enterprisecw/top_ideas.php(9): include_once('/home3/jsmarcha...')
+#3 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 2397
+[26-Mar-2020 15:06:19 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? AND u.Removed = '0' AND r.Removed = '0'' at line 3 in /home3/jsmarchant97/enterprisecw/database.php:306
+Stack trace:
+#0 /home3/jsmarchant97/enterprisecw/database.php(306): PDO->query('SELECT r.Name, ...')
+#1 /home3/jsmarchant97/enterprisecw/nav_bar.php(8): Database->getRole('NumberOne')
+#2 /home3/jsmarchant97/enterprisecw/top_ideas.php(9): include_once('/home3/jsmarcha...')
+#3 {main}
+  thrown in /home3/jsmarchant97/enterprisecw/database.php on line 306
+[27-Mar-2020 05:33:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 131
+[27-Mar-2020 05:46:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:14) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
+[27-Mar-2020 05:46:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:14) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
+[27-Mar-2020 05:49:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[27-Mar-2020 05:49:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 132
+[27-Mar-2020 05:50:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 131
+[27-Mar-2020 05:50:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 131
+[27-Mar-2020 05:50:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jsmarchant97/enterprisecw/nav_bar.php:14) in /home3/jsmarchant97/enterprisecw/view_ideas.php on line 110
